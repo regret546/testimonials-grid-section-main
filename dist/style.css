@@ -1,3 +1,44 @@
+body {
+  background-color: var(--clr--light-gray);
+  font-size: var(--fs-main);
+  font-family: var(--ff--primary);
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  place-items: center;
+  margin: 2.5rem 1rem;
+}
+
+.testimonials {
+  display: grid;
+  grid-auto-rows: auto;
+  gap: 1rem;
+}
+.testimonials div {
+  border-radius: 1rem;
+  padding: 1rem;
+  color: var(--clr--white);
+}
+.testimonials div:nth-of-type(1) {
+  background-color: var(--clr--moderate-violet);
+}
+.testimonials div:nth-of-type(2) {
+  background-color: var(--clr--very-dark-grayish-blue);
+}
+.testimonials div:nth-of-type(3) {
+  background-color: var(--clr--white);
+  color: var(--clr--very-dark-blackish-blue);
+}
+.testimonials div:nth-of-type(4) {
+  background-color: var(--clr--very-dark-blackish-blue);
+}
+.testimonials div:nth-of-type(5) {
+  background-color: var(--clr--white);
+  color: var(--clr--very-dark-blackish-blue);
+}
+
 :root {
   /* Font Family */
   --ff--primary: "Barlow Semi Condensed", sans-serif;
