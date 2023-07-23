@@ -39,6 +39,7 @@
 
     p {
       color: var(--clr--light-gray);
+      opacity: 0.5;
     }
   }
 
@@ -63,6 +64,9 @@
   article:nth-of-type(3) {
     background-color: var(--clr--white);
     color: var(--clr--very-dark-grayish-blue);
+    p {
+      color: var(--clr--very-dark-grayish-blue);
+    }
   }
   article:nth-of-type(4) {
     background-color: var(--clr--very-dark-blackish-blue);
@@ -70,6 +74,9 @@
   article:nth-of-type(5) {
     background-color: var(--clr--white);
     color: var(--clr--very-dark-grayish-blue);
+    p {
+      color: var(--clr--very-dark-grayish-blue);
+    }
   }
 }
 @media only screen and (min-width: 950px) {
